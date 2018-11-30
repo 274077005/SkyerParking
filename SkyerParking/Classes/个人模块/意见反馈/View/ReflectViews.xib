@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ReflectViews">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nyB-rz-RgT">
+                    <rect key="frame" x="16" y="40" width="343" height="120"/>
+                    <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="jdr-FK-YCh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请填写10个字以上的意见和建议,我们将不断改善." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vun-vC-5xx">
+                    <rect key="frame" x="22" y="46" width="331" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="txl-bs-JaQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/500" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6g-Ag-eQo">
+                    <rect key="frame" x="253" y="168" width="100" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Tjd-9d-yQd"/>
+                        <constraint firstAttribute="height" constant="20" id="l0y-0d-cQC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WwL-UF-qvg">
+                    <rect key="frame" x="16" y="200" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="Liw-fI-UoP"/>
+                        <constraint firstAttribute="height" constant="120" id="T3h-1e-CmH"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="photo"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="J6g-Ag-eQo" firstAttribute="top" secondItem="nyB-rz-RgT" secondAttribute="bottom" constant="8" id="7cN-b3-m7s"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nyB-rz-RgT" secondAttribute="trailing" constant="16" id="FVp-7L-411"/>
+                <constraint firstItem="nyB-rz-RgT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="MaS-61-VB2"/>
+                <constraint firstItem="WwL-UF-qvg" firstAttribute="top" secondItem="nyB-rz-RgT" secondAttribute="bottom" constant="40" id="TGv-QS-lI3"/>
+                <constraint firstItem="Vun-vC-5xx" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="22" id="adx-2Z-31U"/>
+                <constraint firstItem="nyB-rz-RgT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="dnG-5N-Dw2"/>
+                <constraint firstItem="WwL-UF-qvg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="isH-aH-l0R"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vun-vC-5xx" secondAttribute="trailing" constant="22" id="n4S-tL-56Z"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="J6g-Ag-eQo" secondAttribute="trailing" constant="22" id="og2-Pt-bWo"/>
+                <constraint firstItem="Vun-vC-5xx" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="26" id="xgJ-92-g5s"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnImage" destination="WwL-UF-qvg" id="XWS-M2-BUU"/>
+                <outlet property="labCount" destination="J6g-Ag-eQo" id="GnH-IB-v2L"/>
+                <outlet property="labPre" destination="Vun-vC-5xx" id="3bI-0K-23c"/>
+                <outlet property="txtContain" destination="nyB-rz-RgT" id="OQG-8P-Fhd"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="photo" width="110" height="110"/>
+    </resources>
+</document>

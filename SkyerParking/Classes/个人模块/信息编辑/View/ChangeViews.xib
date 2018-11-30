@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChangeViews">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PdM-X8-wFM">
+                    <rect key="frame" x="0.0" y="40" width="375" height="40"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入更改信息" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Qa2-Qj-NVs">
+                            <rect key="frame" x="20" y="5" width="335" height="30"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="8Ca-bP-yb4"/>
+                        <constraint firstItem="Qa2-Qj-NVs" firstAttribute="top" secondItem="PdM-X8-wFM" secondAttribute="top" constant="5" id="CYj-Zg-fF9"/>
+                        <constraint firstItem="Qa2-Qj-NVs" firstAttribute="leading" secondItem="PdM-X8-wFM" secondAttribute="leading" constant="20" id="JBd-4R-aks"/>
+                        <constraint firstAttribute="bottom" secondItem="Qa2-Qj-NVs" secondAttribute="bottom" constant="5" id="Occ-Rq-nJI"/>
+                        <constraint firstAttribute="trailing" secondItem="Qa2-Qj-NVs" secondAttribute="trailing" constant="20" id="vUB-p6-nBT"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="PdM-X8-wFM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Ess-MB-hCd"/>
+                <constraint firstItem="PdM-X8-wFM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="Qc7-iq-aeC"/>
+                <constraint firstItem="PdM-X8-wFM" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="uOR-Ep-G1j"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="txtName" destination="Qa2-Qj-NVs" id="4oo-iC-OU8"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

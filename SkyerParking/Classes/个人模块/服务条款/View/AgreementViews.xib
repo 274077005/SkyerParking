@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AgreementViews">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hGa-xn-FKY">
+                    <rect key="frame" x="16" y="20" width="343" height="627"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <mutableString key="text">停车道服务条款
+
+
+您将注册成为停车道的会员，请您阅读以下内容，对您有帮助：
+
+ （1）、禁止讨论违法国家法律法规的内容，本软件只做技术交流，国家的事情请勿在本站发布讨论。
+
+ （2）、禁止在停车道侮辱他人或者捏造事实诽谤他人的，或者进行其他恶意攻击的，侵害他人合法权益的。
+
+ （3）、请勿以任何方式对本停车道进行各种破坏行为的，如：CC攻击、DDOS、网站入侵、盗取会员账号煽动破坏、采用发贴机散布广告等；
+
+ （4）、严禁用党和国家领导人的名字作论坛昵称，严禁用党和国家领导人的头像作为论坛的个人头像；
+
+ （5）、严禁使用停车道管理员（含停车道）的谐音字或头像，防止会员误解，请配合；
+
+ （6）、严禁发表有关国家或国家领导人的笑话文章或恶搞图片；
+
+ （7）、严禁使用低俗、不文明的文字或字母作为用户名。
+
+ （8）、阅读停车道指引帖：《新人必看文章》，了解停车道相关情况。</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hGa-xn-FKY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="HrN-2E-rph"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="hGa-xn-FKY" secondAttribute="trailing" constant="16" id="b7r-VN-hOH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="hGa-xn-FKY" secondAttribute="bottom" constant="20" id="oYg-m3-OQG"/>
+                <constraint firstItem="hGa-xn-FKY" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vSy-lk-kLr"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

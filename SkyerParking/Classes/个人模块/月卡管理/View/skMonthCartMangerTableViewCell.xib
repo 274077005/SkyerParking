@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="skMonthCartMangerTableViewCell" rowHeight="150" id="KGk-i7-Jjw" customClass="skMonthCartMangerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7S3-46-Otj">
+                        <rect key="frame" x="16" y="11" width="288" height="128"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yuekabg" translatesAutoresizingMaskIntoConstraints="NO" id="ek5-8J-a1L">
+                                <rect key="frame" x="0.0" y="0.0" width="288" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="桂ERY028" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TyP-mm-CoP">
+                                <rect key="frame" x="187" y="8" width="93" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO.89598385742958" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-Eq-AGL">
+                                <rect key="frame" x="127" y="37" width="153" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="南宁市秦秀区青湖中心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yg6-ep-MCC">
+                                <rect key="frame" x="8" y="75" width="272" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="nQs-rN-pij"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有效日期:2018-11.11" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xPK-qG-4uv">
+                                <rect key="frame" x="8" y="99" width="272" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ek5-8J-a1L" firstAttribute="top" secondItem="7S3-46-Otj" secondAttribute="top" id="44i-ZY-3sv"/>
+                            <constraint firstItem="oyA-Eq-AGL" firstAttribute="top" secondItem="TyP-mm-CoP" secondAttribute="bottom" constant="5" id="GlQ-a7-pns"/>
+                            <constraint firstItem="yg6-ep-MCC" firstAttribute="top" secondItem="oyA-Eq-AGL" secondAttribute="bottom" constant="20" id="I0U-iz-IYO"/>
+                            <constraint firstAttribute="trailing" secondItem="yg6-ep-MCC" secondAttribute="trailing" constant="8" id="M6O-FI-i42"/>
+                            <constraint firstAttribute="trailing" secondItem="ek5-8J-a1L" secondAttribute="trailing" id="NBx-zp-zzQ"/>
+                            <constraint firstItem="xPK-qG-4uv" firstAttribute="top" secondItem="yg6-ep-MCC" secondAttribute="bottom" constant="3" id="TD9-n8-zFY"/>
+                            <constraint firstAttribute="trailing" secondItem="xPK-qG-4uv" secondAttribute="trailing" constant="8" id="X0N-SK-TBa"/>
+                            <constraint firstAttribute="bottom" secondItem="ek5-8J-a1L" secondAttribute="bottom" id="avv-BK-efg"/>
+                            <constraint firstItem="yg6-ep-MCC" firstAttribute="leading" secondItem="7S3-46-Otj" secondAttribute="leading" constant="8" id="bn3-EI-HTp"/>
+                            <constraint firstItem="xPK-qG-4uv" firstAttribute="leading" secondItem="7S3-46-Otj" secondAttribute="leading" constant="8" id="cPY-hX-LPo"/>
+                            <constraint firstItem="TyP-mm-CoP" firstAttribute="top" secondItem="7S3-46-Otj" secondAttribute="top" constant="8" id="s6C-4r-w0B"/>
+                            <constraint firstAttribute="trailing" secondItem="TyP-mm-CoP" secondAttribute="trailing" constant="8" id="tKK-TY-qqI"/>
+                            <constraint firstItem="ek5-8J-a1L" firstAttribute="leading" secondItem="7S3-46-Otj" secondAttribute="leading" id="xJj-do-6G7"/>
+                            <constraint firstAttribute="trailing" secondItem="oyA-Eq-AGL" secondAttribute="trailing" constant="8" id="zRJ-Ac-n6s"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7S3-46-Otj" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="2Qe-26-IuD"/>
+                    <constraint firstItem="7S3-46-Otj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="5YB-hb-6Vs"/>
+                    <constraint firstItem="7S3-46-Otj" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="TeD-OY-X1G"/>
+                    <constraint firstItem="7S3-46-Otj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="wdG-xz-htU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imageBg" destination="ek5-8J-a1L" id="Dbt-Sn-pXv"/>
+                <outlet property="labAddress" destination="yg6-ep-MCC" id="OTJ-Nd-4iD"/>
+                <outlet property="labDateCanUse" destination="xPK-qG-4uv" id="dil-rd-POZ"/>
+                <outlet property="labNoforCar" destination="oyA-Eq-AGL" id="ASr-lJ-Op6"/>
+                <outlet property="labPlateNo" destination="TyP-mm-CoP" id="e7g-sS-fDX"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="152.02398800599701"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="yuekabg" width="362" height="145"/>
+    </resources>
+</document>

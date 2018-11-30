@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MonthCardSuccessView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jiaofei" translatesAutoresizingMaskIntoConstraints="NO" id="ZTd-2i-kH3">
+                    <rect key="frame" x="137.5" y="50" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="Vft-FS-a9b"/>
+                        <constraint firstAttribute="height" constant="100" id="zu8-p1-4qI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="支付成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjg-ZE-5Rh">
+                    <rect key="frame" x="146.5" y="160" width="82" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfU-qO-MPg">
+                    <rect key="frame" x="65" y="194" width="245" height="36"/>
+                    <string key="text">包月付款成功后您可享受在包月日期
+内在青湖中心停车场不限时停车！</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开通的月卡可在" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyQ-7I-IWI">
+                    <rect key="frame" x="40" y="599" width="107.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMB-3e-y6V">
+                    <rect key="frame" x="155.5" y="593" width="130" height="30"/>
+                    <state key="normal" title="个人中心-月卡管理"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="查看" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zct-m8-wZ2">
+                    <rect key="frame" x="293.5" y="599" width="31" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d26-D2-THh">
+                    <rect key="frame" x="132.5" y="449" width="110" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="AlR-ug-grd"/>
+                        <constraint firstAttribute="height" constant="44" id="X3t-l9-ksg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="返回主页"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZTd-2i-kH3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="4cw-FQ-Ie2"/>
+                <constraint firstItem="Zct-m8-wZ2" firstAttribute="leading" secondItem="NMB-3e-y6V" secondAttribute="trailing" constant="8" id="CpQ-0x-IX6"/>
+                <constraint firstItem="Sjg-ZE-5Rh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="JjZ-7s-pQF"/>
+                <constraint firstItem="d26-D2-THh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Lez-qx-vL4"/>
+                <constraint firstItem="NMB-3e-y6V" firstAttribute="leading" secondItem="qyQ-7I-IWI" secondAttribute="trailing" constant="8" id="R3b-wM-vxy"/>
+                <constraint firstItem="bfU-qO-MPg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SEA-DH-V70"/>
+                <constraint firstItem="Zct-m8-wZ2" firstAttribute="centerY" secondItem="NMB-3e-y6V" secondAttribute="centerY" id="Usu-eq-Ien"/>
+                <constraint firstItem="qyQ-7I-IWI" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="X5G-Kf-tzm"/>
+                <constraint firstItem="NMB-3e-y6V" firstAttribute="top" secondItem="d26-D2-THh" secondAttribute="bottom" constant="100" id="ZyG-dw-DgD"/>
+                <constraint firstItem="bfU-qO-MPg" firstAttribute="top" secondItem="Sjg-ZE-5Rh" secondAttribute="bottom" constant="10" id="c9V-Vn-Y72"/>
+                <constraint firstItem="Sjg-ZE-5Rh" firstAttribute="top" secondItem="ZTd-2i-kH3" secondAttribute="bottom" constant="10" id="cF0-oi-hbJ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="qyQ-7I-IWI" secondAttribute="bottom" constant="50" id="h0w-Jn-jYz"/>
+                <constraint firstItem="NMB-3e-y6V" firstAttribute="centerY" secondItem="qyQ-7I-IWI" secondAttribute="centerY" id="tmv-eF-DGo"/>
+                <constraint firstItem="ZTd-2i-kH3" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ufn-dn-77g"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="btnBackHome" destination="d26-D2-THh" id="bsf-vG-GLk"/>
+                <outlet property="btnMonthManger" destination="NMB-3e-y6V" id="dyw-1b-wRU"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="jiaofei" width="121" height="121"/>
+    </resources>
+</document>

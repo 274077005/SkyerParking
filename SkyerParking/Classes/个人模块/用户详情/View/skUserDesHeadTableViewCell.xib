@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="skUserDesHeadTableViewCell" rowHeight="70" id="KGk-i7-Jjw" customClass="skUserDesHeadTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="286" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touxiang" translatesAutoresizingMaskIntoConstraints="NO" id="aMp-yV-7nq">
+                        <rect key="frame" x="236" y="9" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="CZb-pG-imn"/>
+                            <constraint firstAttribute="width" constant="50" id="HVT-9x-Mgc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="修改头像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g0m-DE-P8w">
+                        <rect key="frame" x="16" y="24.5" width="212" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="amS-ev-bI0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="g0m-DE-P8w" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="BJb-qV-ak3"/>
+                    <constraint firstItem="aMp-yV-7nq" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CFS-ZK-IcZ"/>
+                    <constraint firstAttribute="trailing" secondItem="aMp-yV-7nq" secondAttribute="trailing" id="CPD-hf-TDD"/>
+                    <constraint firstItem="aMp-yV-7nq" firstAttribute="leading" secondItem="g0m-DE-P8w" secondAttribute="trailing" constant="8" id="Htt-W9-2a0"/>
+                    <constraint firstItem="g0m-DE-P8w" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tBg-9F-fGL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imageHeader" destination="aMp-yV-7nq" id="3iN-8d-j9J"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="touxiang" width="54" height="54"/>
+    </resources>
+</document>
