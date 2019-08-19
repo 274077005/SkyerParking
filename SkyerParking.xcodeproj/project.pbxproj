@@ -1399,9 +1399,9 @@
 			isa = PBXGroup;
 			children = (
 				842B8C8C215F1F3400CA1A7D /* SFHFKeychainUtils.m */,
+				842B8C8F215F1F3400CA1A7D /* SFHFKeychainUtils.h */,
 				842B8C8D215F1F3400CA1A7D /* DYDeviceInfo.m */,
 				842B8C8E215F1F3400CA1A7D /* skUUID.m */,
-				842B8C8F215F1F3400CA1A7D /* SFHFKeychainUtils.h */,
 				842B8C90215F1F3400CA1A7D /* skUUID.h */,
 				842B8C91215F1F3400CA1A7D /* DYDeviceInfo.h */,
 			);
